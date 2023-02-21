@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="C:/Users/DELL/Desktop/Project/sign-up-main/css-files/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <title>Lucky Twenty</title>
+</head>
+<body>
+  <div id="hero-container">
+    <div id="hero">
+      <div id="banner">
+        <div id="odin-logo">
+        </div>
+        <div id="banner-text">
+          Lucky Twenty
+        </div>
+      </div>
+    </div>
+    <div id="photo-caption">
+      Artist: Shivansh Gupta
+    </div>
+  </div>
+  <div id="form-container">
+    
+    <div id="description">
+      <div id="about">
+        This site is created to help user to login or creating an account.
+      </div>
+      <div class="encourage">
+        Sign up&nbsp<i>now</i>&nbspto get started.
+      </div>
+      <div class="encourage">
+        You&nbsp<i>know</i>&nbspyou want to.
+      </div>
+    </div>
+    <div id="main-form">
+      <div id="form-prompt">
+        Let's do this!
+      </div>
+      <form>
+        <div class="form-row">
+          <div class="label-input-pair">
+            <label for="fullname">FULL NAME *</label>
+            <input id="fullname" name="fullname" type="text" placeholder="Thor Odison" value="" required>
+            <span></span>
+          </div>
+          <div class="label-input-pair">
+            <label for="username">USERNAME *</label>
+            <input id="username" name="username" type="text" placeholder="TheHammer1337" value="" required>
+            <span></span>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="label-input-pair">
+            <label for="email">EMAIL *</label>
+            <input id="email" name="email" type="email" placeholder="thor@norsemail.asgard" value="" 
+            oninvalid="this.setCustomValidity('Please enter a valid email address')"
+            oninput="this.setCustomValidity('')"
+            required>
+            <span></span>
+          </div>
+          <div class="label-input-pair">
+            <label for="phone">PHONE *</label>
+            <input id="phone" name="phone" type="tel" placeholder=" " 
+            pattern="(\+)?([0-9])+([\-])?([0-9])+([\-])?([0-9])+" 
+            oninvalid="this.setCustomValidity('Please enter a valid phone number')"
+            oninput="this.setCustomValidity('')"
+            required>
+            <span></span>
+          </div>        
+        </div>
+        <div class="form-row">
+          <div class="label-input-pair">
+            <label for="password">PASSWORD *</label>
+            <input id="password" name="password" type="password" placeholder=" " value="" required>
+          </div>
+          <div class="label-input-pair">
+            <label for="confirmation">CONFIRM PASSWORD *</label>
+            <input id="confirmation" name="confirmation" type="password" placeholder=" " value="" required>
+          </div>
+        </div>
+        <div class="form-row button-row">
+          <button id="create">Create account</button>
+        </div>
+      </form>
+
+
+
+
+
+
+    </div>
+    <div id="duplicate-account">
+      <div id="question">
+        Already have an account?
+      </div>
+      <button id="login">Log in</button>
+    </div>
+  </div>
+  
+  <script src="C:/Users/DELL/Desktop/Project/sign-up-main/css-files/js-files/index.js"></script>
+</body>
+</html>
